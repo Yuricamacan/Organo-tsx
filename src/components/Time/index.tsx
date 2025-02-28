@@ -47,6 +47,7 @@ export default function Time({ key, nome, color, backColor, colaborador }: TimeP
 	return (
 		(colaborador.length > 0)
 			? <TimeContainer
+   key={key}
 				color={color}
 				backColor={backColor}
 			>
