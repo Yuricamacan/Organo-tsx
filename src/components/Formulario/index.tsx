@@ -62,7 +62,7 @@ export default function Formulario({ aoCadastrar, times }: FormularioProps) {
 		<Container>
 			<FormContainer onSubmit={aoEnviar}>
 				<TituloForm>
-
+Preencha os campos abaixo para criar um card do colaborador
 				</TituloForm>
 
 				<CampoTexto
